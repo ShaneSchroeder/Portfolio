@@ -1,17 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
     <title>Shane Schroeder</title>
 </head>
 
 <body id="mainBody">
-    <p>hi</p>
+    <div class="d-flex p-3 text-white text-center justify-content-center" id="nameContainer">
+        <div class="row" id="name">
+            <h1>I'm <span class="auto-type"></span></h1>
+        </div>
+    </div>
+
+
+    <div class="container" id="cardContainer">
+        <div class="row">
+            <div class="col-lg-6 h-100">
+                <div class="card text-white h-100" id="aboutMe">
+                    <img src="images/shaneS.png" id="aboutMePic" class="card-img my-auto rounded-circle">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">About me</h5>
+                        <div id="scroll-container">
+                            <div class="scroll-text">This is scrolling text.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 B h-50 pb-3">
+                        <div class="card card-inverse card-success h-100">
+asd
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 B h-50 pb-3">
+                        <div class="card card-inverse bg-success h-100">
+sdf
+                        </div>
+                    </div>
+                    <div class="col-md-12 h-50">
+                        <div class="card card-inverse bg-danger h-100">
+bcd
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <div class="card text-white" id="educationCard">
+        <img src="images/miami.svg" class="card-img my-auto fadeIn" width="150px" height="150px">
+        <div class="card-img-overlay">
+            <h5 class="card-title">Education</h5>
+            <div id="scroll-container">
+                <div id="scroll-text">This is scrolling text.</div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Shane Schroeder."],
+            typeSpeed: 150
+        })
+    </script>
 </body>
+
 </html>
