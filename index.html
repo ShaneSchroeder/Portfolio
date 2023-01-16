@@ -12,6 +12,9 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="main.js?rev=1"></script>
+
     <title>Shane Schroeder</title>
 </head>
 
@@ -27,11 +30,15 @@
         <div class="row">
             <div class="col-lg-6 h-100">
                 <div class="card text-white h-100" id="aboutMe">
-                    <img src="images/shaneS.png" id="aboutMePic" class="card-img my-auto rounded-circle">
+                    <img src="images/headshotwithbackground_square.png" id="aboutMePic"
+                        class="card-img my-auto rounded-circle">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">About me</h5>
-                        <div id="scroll-container">
-                            <div class="scroll-text">This is scrolling text.</div>
+                        <h2 class="card-title">About Me</h2>
+                        <div id="aboutMeScroll">
+                            <div class="scroll-text aboutMeScrollingText">I'm Shane Schroeder, Software Engineer.</div>
+                        </div>
+                        <div id="aboutMeInfo">
+
                         </div>
                     </div>
                 </div>
@@ -39,18 +46,28 @@
             <div class="col-lg-6">
                 <div class="row">
                     <div class="col-md-6 col-lg-6 B h-50 pb-3">
-                        <div class="card card-inverse card-success h-100">
-asd
+                        <div class="card text-white h-100" id="contact">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Contact Me</h3>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 B h-50 pb-3">
-                        <div class="card card-inverse bg-success h-100">
-sdf
+                        <div class="card text-white h-100" id="menu">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Menu</h3>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-12 h-50">
-                        <div class="card card-inverse bg-danger h-100">
-bcd
+                        <div class="card text-white h-100" id="passion">
+                            <div class="card-img-overlay">
+                                <div id="passionScroll">
+                                    <div class="scroll-text">
+                                        Bioinformatics;High-Performance;Cybersecurity
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,7 +95,7 @@ bcd
     <script>
         var typed = new Typed(".auto-type", {
             strings: ["Shane Schroeder."],
-            typeSpeed: 150
+            typeSpeed: 200
         })
     </script>
 </body>

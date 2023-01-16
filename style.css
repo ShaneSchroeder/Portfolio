@@ -8,10 +8,13 @@
 }
 
 #nameContainer {
-    font-size: 100px;
-    font-weight: 600;
     margin-top: 150px;
     margin-bottom: 100px;
+}
+
+#name h1{
+    font-size: 100px;
+    font-weight: 600;
 }
 
 
@@ -25,6 +28,10 @@
 
 .card-title {
     text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 5px;
 }
 
 #educationCard {
@@ -41,9 +48,23 @@
     border-radius: 3.5em;
 }
 
+#aboutMe img {
+    filter: grayscale(100%);
+}
+
+#aboutMe:hover img {
+    filter: grayscale(0%);
+    /* margin-left: 10px; */
+}
+
 #aboutMePic {
     margin: auto;
-    width: 100px;
+    width: 175px;
+}
+
+#aboutMeInfo {
+    transform: translate(100%, -300%);
+    overflow: hidden;
 }
 
 #educationCard:hover img {
@@ -52,55 +73,68 @@
 
 
 
-#scroll-container {
+
+#contact {
+    background-color: #f1184c;
+    margin: 5px;
+    padding: 2em 2em 2em 2em;
+    border-radius: 3.5em;
+}
+
+#menu {
+    background-color: #a8216b;
+    margin: 5px;
+    padding: 2em 2em 2em 2em;
+    border-radius: 3.5em;
+}
+
+#passion {
+    background-color: #f36943;
+    margin: 5px;
+    padding: 2em 2em 2em 2em;
+    border-radius: 3.5em;
+}
+
+#aboutMeScroll {
+    font-size: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: .5em;
+}
+
+#contactScroll {
     font-size: 30px;
     border-radius: 5px;
     overflow: hidden;
+    white-space: nowrap;
+}
+
+#menuScroll {
+    font-size: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#passionScroll {
+    font-size: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .scroll-text {
-    /* animation properties */
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    display: block; /* Important to give the content a width */
+  
+    width: 20em;
+    transform: translateX(100%); /* Animation start out of the screen */
+  
+    /* Add the animation */
+    animation: scroll-left 15s linear infinite /* infinite make reapeat the animation indefinitely */;
+  }
 
-    -moz-animation: my-animation 15s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 15s linear infinite;
-}
-
-/* for Firefox */
-@-moz-keyframes my-animation {
-    from {
-        -moz-transform: translateX(100%);
-    }
-
-    to {
-        -moz-transform: translateX(-100%);
-    }
-}
-
-/* for Chrome */
-@-webkit-keyframes my-animation {
-    from {
-        -webkit-transform: translateX(100%);
-    }
-
-    to {
-        -webkit-transform: translateX(-100%);
-    }
-}
-
-@keyframes my-animation {
-    from {
-        -moz-transform: translateX(100%);
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
-    }
-
-    to {
-        -moz-transform: translateX(-100%);
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%);
-    }
-}
+  /* Create the animation */
+@keyframes scroll-left {
+    to { transform: translateX(-100%); }
+  }
