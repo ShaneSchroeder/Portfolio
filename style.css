@@ -13,7 +13,7 @@
 }
 
 #name h1{
-    font-size: 100px;
+    font-size: 125px;
     font-weight: 600;
 }
 
@@ -30,7 +30,7 @@
     text-align: left;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 25px;
+    margin-left: 64px;
     margin-right: 5px;
 }
 
@@ -50,16 +50,18 @@
 
 #aboutMe img {
     filter: grayscale(100%);
+    opacity: 50%;
 }
 
 #aboutMe:hover img {
     filter: grayscale(0%);
+    opacity: 100%;
     /* margin-left: 10px; */
 }
 
 #aboutMePic {
     margin: auto;
-    width: 175px;
+    width: 250px;
 }
 
 #aboutMeInfo {
@@ -96,11 +98,11 @@
 }
 
 #aboutMeScroll {
-    font-size: 100px;
+    font-size: 115px;
     border-radius: 5px;
     overflow: hidden;
     white-space: nowrap;
-    margin-top: .5em;
+    margin-top: .3em;
 }
 
 #contactScroll {
