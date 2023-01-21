@@ -105,20 +105,6 @@
     margin-top: .3em;
 }
 
-#contactScroll {
-    font-size: 30px;
-    border-radius: 5px;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-#menuScroll {
-    font-size: 30px;
-    border-radius: 5px;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
 #passionScroll {
     font-size: 30px;
     border-radius: 5px;
@@ -126,14 +112,57 @@
     white-space: nowrap;
 }
 
+/* FOR 2ND ROW STUFF */
+
+#cardContainer #row2 {
+    padding-top: .5em;
+    height: 200px;
+}
+
+#successes {
+    background-color: #f7dc66;
+    margin: 5px;
+    padding: 2em 2em 2em 2em;
+    border-radius: 3.5em;
+}
+
+#successesScroll {
+    font-size: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* FOR 4th ROW STUFF */
+
+#cardContainer #row4 {
+    height: 200px;
+}
+
+#projects {
+    background-color: #f7dc66;
+    margin: 5px;
+    padding: 2em 2em 2em 2em;
+    border-radius: 3.5em;
+}
+
+#projectsScroll {
+    font-size: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+/* MISC */
 .scroll-text {
     display: block; /* Important to give the content a width */
   
-    width: 20em;
+    width: 22em;
     transform: translateX(100%); /* Animation start out of the screen */
   
     /* Add the animation */
-    animation: scroll-left 15s linear infinite /* infinite make reapeat the animation indefinitely */;
+    animation: scroll-left 13s linear infinite /* infinite make reapeat the animation indefinitely */;
   }
 
   /* Create the animation */
