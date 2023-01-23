@@ -18,4 +18,6 @@ $(document).ready(function () {
         $("#aboutMeScroll").prepend("<marquee id='aboutMeScrollingText' behavior='scroll' direction='left' scrollamount='22'>I'm Shane Schroeder, Software Engineer.</marquee>");
         });
 
+        
+
 });
