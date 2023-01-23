@@ -133,6 +133,14 @@
     white-space: nowrap;
 }
 
+/* FOR 3rd ROW STUFF */
+
+#cardContainer #row3 {
+    height: 1200px;
+}
+
+
+
 /* FOR 4th ROW STUFF */
 
 #cardContainer #row4 {
@@ -153,10 +161,20 @@
     white-space: nowrap;
 }
 
+#projects a:link, a:visited {
+    background-color: #f7dc66;
+    color: white;
+    text-decoration: none;
+  }
+  
+ #projects a:hover, a:active {
+    color: white;
+  }
+
 
 /* MISC */
 .scroll-text {
-    display: block; /* Important to give the content a width */
+    display: block;
   
     width: 22em;
     transform: translateX(100%); /* Animation start out of the screen */
