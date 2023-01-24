@@ -23,7 +23,7 @@
 }
 
 .auto-type {
-    color: #f7dc66;
+    color: #ffb245;
 }
 
 .card-title {
@@ -106,7 +106,7 @@
 }
 
 #successes {
-    background-color: #f7dc66;
+    background-color: #ffb245;
     margin: 5px;
     padding: 2em 2em 2em 2em;
     border-radius: 3.5em;
@@ -147,7 +147,7 @@
 }
 
 #skills {
-    background-color: #f7dc66;
+    background-color: #ffb245;
     margin: 5px;
     padding: 2em 2em 2em 2em;
     border-radius: 3.5em;
@@ -167,7 +167,7 @@
 }
 
 #projects {
-    background-color: #f7dc66;
+    background-color: #ffb245;
     margin: 5px;
     padding: 2em 2em 2em 2em;
     border-radius: 3.5em;
@@ -181,7 +181,7 @@
 }
 
 #projects a:link, a:visited {
-    background-color: #f7dc66;
+    background-color: ffb245;
     color: white;
     text-decoration: none;
   }
