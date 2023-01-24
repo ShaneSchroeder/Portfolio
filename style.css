@@ -13,8 +13,11 @@
 }
 
 #name h1{
-    font-size: 125px;
     font-weight: 600;
+}
+
+.text-responsive {
+    font-size: calc(100% + 4.5vw + 4.5vh);
 }
 
 
